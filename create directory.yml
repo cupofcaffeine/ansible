@@ -1,0 +1,11 @@
+---
+- name: create a directory
+   gather_facts: yes
+   remote_user: root
+   tasks:
+
+     - name: Creates directory
+       file: path=~/demo_dir
+       state=directory
+
+
