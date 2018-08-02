@@ -1,4 +1,3 @@
----
 - name: create a directory
    gather_facts: yes
    remote_user: root
