@@ -5,6 +5,6 @@
 
      - name: Creates directory
        file: path=~/demo_dir
-       state=directory
+       state = directory
 
 
