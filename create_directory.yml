@@ -3,7 +3,6 @@
   tasks:
 
    - name: Creates directory
-     file: path=~/demo_dir
-     state=directory
-
-
+     file:
+       path: /etc/some_directory
+       state: directory
