@@ -1,2 +1,2 @@
 # ansible
-Leraning Ansible and Awx
+Learning Ansible and Awx
