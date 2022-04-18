@@ -1,12 +1,10 @@
--name: Service_test
-hosts: all
-gather_facts: no
-tasks:
-- name: systemctl restart <service_name>
-service:
- name: "{{service_name}}"
- state: restarted 
-become: yes
-become_method: su
-become_user: root
-register: result_restart
+---
+- name: create file
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: create file
+      win_file:
+        path: D:\test.txt
+        state: touch
+
